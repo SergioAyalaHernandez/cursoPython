@@ -29,4 +29,20 @@ print(array)
 array.insert(1,"Hola Prros")
 print(array)
 
+# voltear el orden de los array
+array.reverse()
+print(array)
 
+# ordenar los valores de menor a mayor
+arrayNumeros = [9,7,8,4,10,101,456,499,78,146,774,77,97,8,8,6,15]
+arrayNumeros.sort()
+print(arrayNumeros)
+
+# ordenar los valores de Mayor a menor
+arrayNumeros.sort(reverse=True)
+print(arrayNumeros)
+
+
+# eliminar todos los datos del array
+array.clear()
+print(array)
